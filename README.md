@@ -4,7 +4,23 @@ Approximates the solution of a differential equation `dy/dx = f(x, y)` using Eul
 
 ## How to run
 
-**Easiest (Mac):** double-click `run.command` in Finder.
+### On GitHub (no install needed)
+
+1. On the repository page, click the green **Code** button → **Codespaces** tab → **Create codespace on main**.
+2. Wait for it to finish setting up (the first time takes a minute or two).
+3. In the terminal at the bottom, type:
+   ```
+   java EulersMethod.java
+   ```
+   and press Enter. Answer the questions in that terminal.
+
+   (Or open `EulersMethod.java` and click **Run** above `main`, or press **F5**.)
+
+Note: pressing `.` on the repo opens github.dev, which can only edit files and **cannot run code**. Use a Codespace instead.
+
+### On a Mac
+
+**Easiest:** double-click `run.command` in Finder.
 (The first time, macOS may block it. If so, right-click it, choose **Open**, then click **Open** again.)
 
 **From a terminal:**
